@@ -1,3 +1,537 @@
-@use "./base.scss";
+/* =========================================
+   ALLWIN ALEX — STABLE V1
+========================================= */
 
-// put your custom CSS here!
+:root {
+
+  --site-max-width: 1320px;
+
+  --text: #172033;
+  --muted: #667085;
+
+  --accent: #6d5efc;
+
+  --bg: #f5f7fb;
+
+  --surface:
+    rgba(255,255,255,0.72);
+
+  --border:
+    rgba(15,23,42,0.06);
+
+  --radius: 24px;
+
+  --shadow:
+    0 8px 24px rgba(15,23,42,0.04);
+}
+
+/* =========================================
+   GLOBAL
+========================================= */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+
+  background:
+
+    radial-gradient(
+      circle at top left,
+      rgba(109,94,252,0.05),
+      transparent 28%
+    ),
+
+    linear-gradient(
+      180deg,
+      #f8fafc 0%,
+      #f3f5f9 100%
+    );
+
+  color: var(--text);
+
+  font-family:
+    Inter,
+    sans-serif;
+
+  font-size: 15px;
+
+  line-height: 1.8;
+
+  letter-spacing: -0.01em;
+
+  -webkit-font-smoothing: antialiased;
+}
+
+/* =========================================
+   REMOVE SIDEBARS
+========================================= */
+
+.left.sidebar,
+.right.sidebar {
+
+  display: none;
+}
+
+/* =========================================
+   PAGE
+========================================= */
+
+.page {
+
+  max-width: var(--site-max-width);
+
+  margin: 0 auto;
+
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+/* =========================================
+   MAIN CONTENT
+========================================= */
+
+#quartz-body {
+
+  display: block;
+}
+
+.center {
+
+  max-width: 1040px;
+
+  margin: 0 auto;
+}
+
+/* =========================================
+   REMOVE DEFAULT HEADER
+========================================= */
+
+.page-header,
+.search,
+.page-title {
+
+  display: none;
+}
+
+/* =========================================
+   CUSTOM NAVBAR
+========================================= */
+
+.custom-navbar {
+
+  position: sticky;
+
+  top: 16px;
+
+  z-index: 999;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 2rem;
+
+  padding:
+    0.9rem 1.2rem;
+
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+
+  background:
+    rgba(255,255,255,0.58);
+
+  backdrop-filter:
+    blur(18px);
+
+  border:
+    1px solid rgba(255,255,255,0.8);
+
+  border-radius:
+    999px;
+
+  box-shadow:
+    var(--shadow);
+}
+
+/* =========================================
+   HOME BUTTON
+========================================= */
+
+.nav-home {
+
+  width: 44px;
+  height: 44px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 999px;
+
+  background:
+    rgba(255,255,255,0.72);
+
+  border:
+    1px solid rgba(255,255,255,0.9);
+
+  color: var(--text);
+
+  text-decoration: none;
+
+  font-size: 1.1rem;
+
+  transition:
+    transform 180ms ease;
+}
+
+.nav-home:hover {
+
+  transform:
+    translateY(-2px);
+}
+
+/* =========================================
+   NAV CENTER
+========================================= */
+
+.nav-center {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 2rem;
+}
+
+.nav-center a {
+
+  color: var(--muted);
+
+  font-size: 0.95rem;
+
+  font-weight: 600;
+
+  text-decoration: none;
+
+  transition:
+    color 180ms ease;
+}
+
+.nav-center a:hover {
+
+  color: var(--text);
+}
+
+/* =========================================
+   SEARCH BUTTON
+========================================= */
+
+.nav-search {
+
+  width: 44px;
+  height: 44px;
+
+  border-radius: 999px;
+
+  border:
+    1px solid rgba(255,255,255,0.9);
+
+  background:
+    rgba(255,255,255,0.72);
+
+  cursor: pointer;
+
+  transition:
+    transform 180ms ease;
+}
+
+.nav-search:hover {
+
+  transform:
+    translateY(-2px);
+}
+
+/* =========================================
+   HERO
+========================================= */
+
+.hero-section {
+
+  padding-top: 1rem;
+}
+
+h1 {
+
+  font-size:
+    clamp(4rem, 8vw, 6rem);
+
+  line-height: 0.92;
+
+  letter-spacing: -0.08em;
+
+  font-weight: 800;
+
+  margin-bottom: 1.5rem;
+
+  color: var(--text);
+}
+
+.hero-section p {
+
+  max-width: 760px;
+
+  color: var(--muted);
+
+  font-size: 1.08rem;
+
+  line-height: 1.9;
+}
+
+/* =========================================
+   HEADINGS
+========================================= */
+
+h2 {
+
+  font-size: 2rem;
+
+  line-height: 1.08;
+
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+
+  letter-spacing: -0.04em;
+}
+
+h3 {
+
+  font-size: 1.4rem;
+
+  line-height: 1.15;
+
+  margin-bottom: 1rem;
+}
+
+/* =========================================
+   CTA ROW
+========================================= */
+
+.cta-row {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 1rem;
+
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+/* =========================================
+   BUTTONS
+========================================= */
+
+.cta-row a,
+.featured-card a,
+.contact-card {
+
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  height: 48px;
+
+  padding:
+    0 1.3rem;
+
+  border-radius: 999px;
+
+  background:
+    rgba(255,255,255,0.8);
+
+  border:
+    1px solid rgba(255,255,255,0.9);
+
+  color: var(--text);
+
+  font-weight: 600;
+
+  text-decoration: none;
+
+  box-shadow:
+    0 2px 10px rgba(15,23,42,0.03);
+
+  transition:
+    transform 180ms ease;
+}
+
+.cta-row a:hover,
+.featured-card a:hover,
+.contact-card:hover {
+
+  transform:
+    translateY(-2px);
+}
+
+/* =========================================
+   DIVIDER
+========================================= */
+
+hr {
+
+  border: none;
+
+  height: 1px;
+
+  background:
+    rgba(15,23,42,0.06);
+
+  margin: 5rem 0;
+}
+
+/* =========================================
+   FEATURED GRID
+========================================= */
+
+.featured-grid {
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 1.5rem;
+
+  margin-top: 2rem;
+}
+
+/* =========================================
+   FEATURED CARD
+========================================= */
+
+.featured-card {
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: space-between;
+
+  min-height: 320px;
+
+  padding: 2rem;
+
+  border-radius: var(--radius);
+
+  background:
+    rgba(255,255,255,0.72);
+
+  backdrop-filter:
+    blur(16px);
+
+  border:
+    1px solid rgba(255,255,255,0.9);
+
+  box-shadow:
+    var(--shadow);
+
+  transition:
+    transform 180ms ease;
+}
+
+.featured-card:hover {
+
+  transform:
+    translateY(-4px);
+}
+
+/* =========================================
+   GENERIC CARDS
+========================================= */
+
+.focus-grid,
+.knowledge-grid,
+.contact-grid {
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 1.5rem;
+
+  margin-top: 2rem;
+}
+
+.focus-card,
+.knowledge-card,
+.philosophy-card {
+
+  padding: 2rem;
+
+  border-radius: var(--radius);
+
+  background:
+    rgba(255,255,255,0.72);
+
+  border:
+    1px solid rgba(255,255,255,0.9);
+
+  box-shadow:
+    var(--shadow);
+}
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media screen and (max-width: 900px) {
+
+  .page {
+
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  h1 {
+
+    font-size: 3.5rem;
+  }
+
+  h2 {
+
+    font-size: 1.8rem;
+  }
+
+  .featured-grid,
+  .focus-grid,
+  .knowledge-grid,
+  .contact-grid {
+
+    grid-template-columns: 1fr;
+  }
+
+  .cta-row {
+
+    flex-direction: column;
+  }
+
+  .cta-row a {
+
+    width: 100%;
+  }
+
+  .nav-center {
+
+    gap: 1rem;
+
+    overflow-x: auto;
+  }
+}

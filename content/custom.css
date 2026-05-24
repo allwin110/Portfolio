@@ -1,0 +1,128 @@
+/* =========================================
+   ALLWIN ALEX — VISUAL FOUNDATION V1
+========================================= */
+
+:root {
+  --site-max-width: 920px;
+  --body-width: 720px;
+
+  --radius: 14px;
+
+  --font-body:
+    "Inter",
+    "SF Pro Display",
+    sans-serif;
+
+  --font-heading:
+    "Inter",
+    "SF Pro Display",
+    sans-serif;
+
+  --font-mono:
+    "JetBrains Mono",
+    monospace;
+}
+
+/* ===== Global Typography ===== */
+
+body {
+  font-family: var(--font-body);
+  letter-spacing: -0.01em;
+  line-height: 1.75;
+  font-size: 15.5px;
+}
+
+/* ===== Headings ===== */
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-heading);
+  letter-spacing: -0.04em;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.15rem;
+}
+
+/* ===== Layout Width ===== */
+
+.page {
+  max-width: var(--site-max-width);
+}
+
+article {
+  max-width: var(--body-width);
+}
+
+/* ===== Improve Reading Space ===== */
+
+p {
+  margin-bottom: 1.2rem;
+}
+
+/* ===== Cleaner Sidebar ===== */
+
+.explorer {
+  font-size: 14px;
+}
+
+.folder-title,
+.explorer-content a {
+  transition: opacity 0.2s ease;
+}
+
+.folder-title:hover,
+.explorer-content a:hover {
+  opacity: 0.7;
+}
+
+/* ===== Links ===== */
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.75;
+}
+
+/* ===== Buttons Feel ===== */
+
+a.internal {
+  border-radius: var(--radius);
+}
+
+/* ===== Horizontal Rules ===== */
+
+hr {
+  opacity: 0.08;
+  margin: 3rem 0;
+}
+
+/* ===== Table of Contents ===== */
+
+.toc {
+  font-size: 13px;
+}
+
+/* ===== Graph Hide for Now ===== */
+
+.graph {
+  opacity: 0.35;
+}
