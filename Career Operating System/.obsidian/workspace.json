@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "38d5c690c6307177",
+        "id": "e47f745544ada75d",
         "type": "tabs",
         "children": [
           {
-            "id": "1853989075fe1d6a",
+            "id": "59c2f638a3a47276",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resume/Dump/Pasted image 20260516200845.png",
+                "file": "Untitled.base",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Pasted image 20260516200845"
+              "title": "Backlinks for Untitled"
             }
           },
           {
@@ -109,12 +109,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resume/Dump/Pasted image 20260516200845.png",
+                "file": "Untitled.base",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Pasted image 20260516200845"
+              "title": "Outgoing links from Untitled"
             }
           },
           {
@@ -152,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resume/Dump/Pasted image 20260516200845.png",
+                "file": "Untitled.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Pasted image 20260516200845"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -180,6 +180,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "digitalgarden:Digital Garden Publication Center": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -192,6 +193,10 @@
   },
   "active": "e25f47b4131adffb",
   "lastOpenFiles": [
+    "2026-05-24.md",
+    "Untitled.base",
+    "Untitled.canvas",
+    "Resume/Dump/Pasted image 20260516200845.png",
     "Website Hero Images/Pasted image 20260524123210.jpg",
     "Website Hero Images/Pasted image 20260524123205.jpg",
     "Website Hero Images/Pasted image 20260524123200.jpg",
@@ -207,8 +212,6 @@
     "AI Workflows/AI workflow specifics.md",
     "Resume/Interview positioning.md",
     "Resume/Global Resume V2.md",
-    "Resume/Dump/Pasted image 20260516200845.png",
-    "Resume/Dump/Pasted image 20260516202721.png",
     "Resume/Dump/Untitled.base",
     "Master Narrative/SCAC Portfolio Narrative.md",
     "Resume/Dump/Untitled 1.base",
@@ -233,11 +236,9 @@
     "copilot/copilot-custom-prompts/Emojify.md",
     "copilot/copilot-custom-prompts/Explain like I am 5.md",
     "copilot/copilot-custom-prompts/Simplify.md",
-    "copilot/copilot-custom-prompts/Summarize.md",
     "copilot/copilot-custom-prompts",
     "copilot",
     "Assets/Accessibility",
-    "Assets/Components",
-    "Assets/Flows"
+    "Assets/Components"
   ]
 }
