@@ -1,0 +1,243 @@
+{
+  "main": {
+    "id": "ba4d026f643fbfb9",
+    "type": "split",
+    "children": [
+      {
+        "id": "38d5c690c6307177",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1853989075fe1d6a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "af8f7f61f54b34ad",
+    "type": "split",
+    "children": [
+      {
+        "id": "199268f05157f574",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e25f47b4131adffb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "1c266cb1a8dd4d21",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "6e63a4f4b0a90490",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "463abe523c7fdc0b",
+    "type": "split",
+    "children": [
+      {
+        "id": "1f8c6dfa5793bf7c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cb44d38081c08198",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Resume/Dump/Pasted image 20260516200845.png",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Pasted image 20260516200845"
+            }
+          },
+          {
+            "id": "2ee56779ca81f767",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Resume/Dump/Pasted image 20260516200845.png",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Pasted image 20260516200845"
+            }
+          },
+          {
+            "id": "c729e3296a121877",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "532b7c49c512c1a6",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "04660098d362f746",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Resume/Dump/Pasted image 20260516200845.png",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Pasted image 20260516200845"
+            }
+          },
+          {
+            "id": "515967b722263b88",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 539.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "copilot:Open Copilot Chat": false
+    }
+  },
+  "active": "e25f47b4131adffb",
+  "lastOpenFiles": [
+    "Website Hero Images/Pasted image 20260524123210.jpg",
+    "Website Hero Images/Pasted image 20260524123205.jpg",
+    "Website Hero Images/Pasted image 20260524123200.jpg",
+    "Website Hero Images/Pasted image 20260524123156.jpg",
+    "Website Hero Images/Pasted image 20260524123152.jpg",
+    "Website Hero Images/Pasted image 20260524123146.jpg",
+    "Website Hero Images/Pasted image 20260524123137.jpg",
+    "Website Hero Images/Pasted image 20260524123130.jpg",
+    "Website Hero Images/Pasted image 20260524123119.jpg",
+    "Untitled.md",
+    "AI Workflows/Workflow Evolution.md",
+    "Website Hero Images",
+    "AI Workflows/AI workflow specifics.md",
+    "Resume/Interview positioning.md",
+    "Resume/Global Resume V2.md",
+    "Resume/Dump/Pasted image 20260516200845.png",
+    "Resume/Dump/Pasted image 20260516202721.png",
+    "Resume/Dump/Untitled.base",
+    "Master Narrative/SCAC Portfolio Narrative.md",
+    "Resume/Dump/Untitled 1.base",
+    "Resume/Dump",
+    "Master Narrative/Master Narrative.md",
+    "Research/Global Positioning.md",
+    "Case Studies/Cloud Orchestration Case Study.md",
+    "Resume/Cloud Orchestration Resume.md",
+    "Resume/Dump/Untitled.canvas",
+    "Assets/Cloud-Orchestration/Screenshot Inventory.md",
+    "copilot/copilot-conversations/AI_API_Errors@20260516_214749.md",
+    "copilot/copilot-conversations",
+    "copilot/copilot-custom-prompts/Clip Web Page.md",
+    "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
+    "copilot/copilot-custom-prompts/Remove URLs.md",
+    "copilot/copilot-custom-prompts/Generate glossary.md",
+    "copilot/copilot-custom-prompts/Generate table of contents.md",
+    "copilot/copilot-custom-prompts/Make longer.md",
+    "copilot/copilot-custom-prompts/Make shorter.md",
+    "copilot/copilot-custom-prompts/Emojify.md",
+    "copilot/copilot-custom-prompts/Explain like I am 5.md",
+    "copilot/copilot-custom-prompts/Simplify.md",
+    "copilot/copilot-custom-prompts/Summarize.md",
+    "copilot/copilot-custom-prompts",
+    "copilot",
+    "Assets/Accessibility",
+    "Assets/Components",
+    "Assets/Flows"
+  ]
+}
