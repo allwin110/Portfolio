@@ -2,6 +2,30 @@
    ALLWIN ALEX — VISUAL FOUNDATION V1
 ========================================= */
 
+/* =========================================
+   TYPOGRAPHY FOUNDATION
+========================================= */
+
+:root {
+  --content-width: 760px;
+
+  --font-body: -apple-system, BlinkMacSystemFont, "Inter", sans-serif;
+
+  --text-primary: #111111;
+  --text-secondary: #555555;
+
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 24px;
+  --space-lg: 40px;
+  --space-xl: 64px;
+
+  --radius-md: 16px;
+  --radius-lg: 24px;
+}
+
+
+
 :root {
   --site-max-width: 920px;
   --body-width: 720px;

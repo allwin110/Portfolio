@@ -11,13 +11,32 @@
             "id": "59c2f638a3a47276",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Dashboard/Career Operating System.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Career Operating System"
+            }
+          },
+          {
+            "id": "8f0747ca998d6443",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dashboard/Portfolio Program Tracker.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Portfolio Program Tracker"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -176,7 +195,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 539.5
+    "width": 342.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,10 +212,14 @@
   },
   "active": "e25f47b4131adffb",
   "lastOpenFiles": [
+    "Dashboard/ Portfolio Program Tracker.md.canvas",
+    "Dashboard/Portfolio Program Tracker.md",
+    "Dashboard/Career Operating System.md",
+    "Website Hero Images/Pasted image 20260524123130.jpg",
+    "Website Hero Images/Pasted image 20260524123119.jpg",
     "Content Architecture",
     "2026-05-24.md",
     "Untitled.base",
-    "Untitled.canvas",
     "Resume/Dump/Pasted image 20260516200845.png",
     "Website Hero Images/Pasted image 20260524123210.jpg",
     "Website Hero Images/Pasted image 20260524123205.jpg",
@@ -205,9 +228,6 @@
     "Website Hero Images/Pasted image 20260524123152.jpg",
     "Website Hero Images/Pasted image 20260524123146.jpg",
     "Website Hero Images/Pasted image 20260524123137.jpg",
-    "Website Hero Images/Pasted image 20260524123130.jpg",
-    "Website Hero Images/Pasted image 20260524123119.jpg",
-    "Untitled.md",
     "AI Workflows/Workflow Evolution.md",
     "Website Hero Images",
     "AI Workflows/AI workflow specifics.md",
@@ -236,10 +256,8 @@
     "copilot/copilot-custom-prompts/Make shorter.md",
     "copilot/copilot-custom-prompts/Emojify.md",
     "copilot/copilot-custom-prompts/Explain like I am 5.md",
-    "copilot/copilot-custom-prompts/Simplify.md",
     "copilot/copilot-custom-prompts",
     "copilot",
-    "Assets/Accessibility",
-    "Assets/Components"
+    "Assets/Accessibility"
   ]
 }
